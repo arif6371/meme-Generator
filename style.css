@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+  
+body{
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+.meme-container{
+  max-width: 500px;
+  margin-inline:auto ;
+  background-color: rgb(247, 247, 231);
+  box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.3); /* Adjusted the alpha channel to 0.2 */
+  padding:20px;
+}
+
+
+.meme-title{
+  margin-top:16px;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.author{
+  margin-bottom:0;
+}
+img{
+  width: 100%;
+  border-radius: 8px
+}
+button{
+  
+  margin-top: 15px;
+  margin-bottom: 20px;
+  outline: rgb(247, 168, 49);
+  padding: 12px;
+  border-radius: 6px;
+  background-color: rgb(247, 244, 207);
+  cursor: grab;
+}
+button:active{
+  background-color: rgb(237, 233, 116);
+}
